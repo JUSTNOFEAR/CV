@@ -1,0 +1,48 @@
+$background_colour: rgb(51, 51, 46);
+$font_colour: rgba(232, 232, 222);
+
+
+body{
+    background-color: $background_colour;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+*{
+    text-decoration: none;
+}
+
+img{
+    max-width: 20%;
+    max-height: 20%;
+}
+
+a, p, h1, h3{
+    color: $font_colour;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        font-size: 16px;
+    }
+}
+
+.photo_box{
+    display: flex;
+
+    .text_box{
+        flex-direction: column;
+        display: flex;
+        flex-grow: 0;
+    }
+}

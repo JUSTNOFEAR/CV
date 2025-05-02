@@ -1,1 +1,42 @@
-/*# sourceMappingURL=css.css.map */
+body {
+  background-color: rgb(51, 51, 46);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1440px;
+}
+
+* {
+  text-decoration: none;
+}
+
+img {
+  max-width: 20%;
+  max-height: 20%;
+}
+
+a, p, h1, h3 {
+  color: rgb(232, 232, 222);
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  font-size: 16px;
+}
+
+.photo_box {
+  display: flex;
+}
+.photo_box .text_box {
+  flex-direction: column;
+  display: flex;
+  flex-grow: 0;
+}/*# sourceMappingURL=css.css.map */
